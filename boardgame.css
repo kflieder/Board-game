@@ -6,9 +6,10 @@ body {
 .board {
 	outline: solid red;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	gap: 10px;
 	padding: 5px;
+	padding-bottom: 10px;
 
 
 }
