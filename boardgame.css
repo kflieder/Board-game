@@ -20,7 +20,16 @@ body {
 	box-shadow: 0 0 2em;
 	text-align: center;
 	height: 20vh;
+	padding: 0 5px;
 }
+
+.tile {
+	outline: solid green;
+	
+}
+
+
+
 
 #buttons {
 	outline: solid blue;
@@ -29,3 +38,15 @@ body {
 	padding: 2em;
 	gap: 100px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
