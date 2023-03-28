@@ -1,0 +1,28 @@
+body {
+	height: 100%;
+
+}
+
+.board {
+	outline: solid red;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 10px;
+	padding: 5px;
+
+
+}
+
+.tile {
+	outline: solid green;
+	text-align: center;
+	height: 20vh;
+}
+
+#buttons {
+	outline: solid blue;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;	
+	padding: 2em;
+	gap: 100px;
+}
