@@ -1,6 +1,6 @@
 # board-game
 Board Game
-Board Game is a tile-based board game where two players take turns moving around the map, picking up weapons, fighting enemies, working together as a tank, dps, and healer.
+Board Game is a tile-based board game where 2-5 players take turns moving around the map, picking up weapons, fighting enemies, working together as a tank, dps, and healer.
 
 
 
