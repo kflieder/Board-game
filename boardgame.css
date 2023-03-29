@@ -3,15 +3,11 @@ body {
 
 }
 
-.board {
-	
+.board-el {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	gap: 1em;
 	padding: 0 2em 1em;
-	
-
-
 }
 
 .space {
@@ -25,6 +21,7 @@ body {
 
 .tile {
 	outline: solid green;
+	display: none;
 	
 }
 
@@ -34,9 +31,18 @@ body {
 #buttons {
 	outline: solid blue;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;	
+	grid-template-columns: 1fr 1fr;	
 	padding: 2em;
-	gap: 100px;
+	gap: 10px;
+}
+
+
+
+
+#drawn-tile {
+	border: solid black;
+	text-align: center;
+	height: 4vh;
 }
 
 

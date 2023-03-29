@@ -17,19 +17,21 @@
 <!-- all the tiles are currently hard coded in to each space so we have to create a component for those -->
 
 
-    <div class="board">
+
+
+    <div class="board-el">
       <div class="space">
-	      	<div class="tile" id="throne"> 
+	      	<div class="tile with-pic"> 
 	      		 tile with pic of throne
 	      	</div>
 	 </div>
       <div class="space">
-      		<div class="tile" id="entrance"> 
+      		<div class="tile with-pic"> 
 	      		 tile with pic of main entrance
 	      	</div>
       </div>
       <div class="space">
-      		<div class="tile" id="door"> 
+      		<div class="tile with-pic"> 
 	      		 tile with pic of door
 	      	</div>
 	      </div>
@@ -161,12 +163,14 @@
     </div>
 
     <div id="buttons">
+    	<div id="drawn-tile"></div>
+    	<button id="draw-tile-btn">Draw Tile</button>
 		<button>Draw Card type1</button> 
-		<button>Draw Tile</button> 
+		 
 		<button>Draw Card type2</button> 
 
     </div>
-
+<script src="boardgame.js"></script>
   </body>
 </html>
 
