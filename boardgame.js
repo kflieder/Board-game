@@ -7,11 +7,11 @@
 
 
 
-let board = document.getElementById('board-el')
+let board = document.getElementById('.board-el')
 
 const spaces = document.querySelectorAll('.space')
-const tileWithPic = document.getElementById('.with-pic')
-const tileWithPath = document.getElementById('.tile') 
+const tileWithPic = document.getElementById('with-pic')
+const tileWithPath = document.querySelectorAll('.tile') 
 let gameStarted = false
 
 const allPathTiles = ['straight', 'four-way path', 'turn left']
@@ -19,11 +19,10 @@ const allPicTiles = []
 
 
 
-spaces.forEach((space, index) => {
-	
-
-	space.addEventListener('click', () => {
-		space.innerText = drawnTile.innerText	})
+tileWithPath.forEach((currentTile) => {
+		currentTile.addEventListener('click', () => {
+		addTileToBoard(currentTile, drawnTile);
+			})
 })
 
 
@@ -38,8 +37,17 @@ drawTileBtn.addEventListener('click', () => {
 })
 
 
+function addTileToBoard(currentTile, drawnTile) {
+  if (currentTile.innerText === '') {
+    currentTile.innerText = drawnTile.innerText;
+    drawnTile.textContent = '';
+  }
+}
 
 
+const playerChar1 = document.createElement('div')
+playerChar1.textContent = "CHARACTER"
+document.getElementById('space1').appendChild(playerChar1)
 
 
 

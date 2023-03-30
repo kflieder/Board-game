@@ -20,8 +20,8 @@ body {
 }
 
 .tile {
-	outline: solid green;
-	display: none;
+	border: solid blue;
+	padding: 20px;
 	
 }
 
