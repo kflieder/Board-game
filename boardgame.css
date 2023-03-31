@@ -22,6 +22,8 @@ body {
 .tile {
 	border: solid blue;
 	padding: 20px;
+	background: lightblue;
+	height: 20px;
 	
 }
 
